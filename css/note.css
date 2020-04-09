@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+a {text-decoration: none;color: #0b2e13;}
+button {outline: none !important;}
+.badge-cary {color: #fff; background-color: #a8adb1;}
+.max-height {height: 100%;}
+
+/*Home*/
+header {padding-top: 1rem;box-shadow: 0 1px 3px rgba(26,26,26,.1);background-color: #fff;}
+html,body {background-color: #f9f9f9;}
+
+.n-content {}
+.n-main {margin: 1.2rem 0;}
+.n-article-list {margin-bottom: 1rem;}
+.n-article-list a {}
+
+
+/*Login Page*/
+.login-body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/*End Login Page*/
